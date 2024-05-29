@@ -1,5 +1,14 @@
 import React from "react";
+import Home from "./pages/Home";
+import Navbar from "./Component/Navbar";
 
-export const App = () => {
-  return <div>App</div>;
+const App = () => {
+  return (
+    <>
+      <Navbar />
+      <Home />
+    </>
+  );
 };
+
+export default App;
